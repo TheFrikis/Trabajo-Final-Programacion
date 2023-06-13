@@ -9,10 +9,13 @@ eleccion = int(input("Por favor ingrese una opcion: "))
 match eleccion:
     case 1:
         print("Usted a seleccionado Consulta de ley por numero")
+        numeroLey = int(input("Ingrese el numero de ley: "))
     case 2: 
         print("Usted a seleccionado Consulta de ley por palabra")
+        PalabraLey = input("Ingrese La palabra Clave: ")
     case 3:
         print("Usted a seleccionado Modificar una ley")
+        ModificarLey = int(input("¿Que ley desea Modificar?: "))
     case 4:
         print("Usted a seleccionado salir")
     case _:
