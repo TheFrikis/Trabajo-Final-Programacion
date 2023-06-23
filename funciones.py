@@ -2,10 +2,11 @@ from os import system
 import conexion as conn 
 db = conn.baseDeDatos()
 import sqlite3
+
 system("cls")
 
 class Leyes():
-
+    
     def _init_(self):
         self.NumReg = ""
         self.TipNorma = ""
@@ -40,4 +41,4 @@ class Leyes():
                     finRegistro=True
                 seguir = input("Desea cargar otra Ley? S/N")
                 if seguir == "n" or seguir == "N":                    
-                    continuar = False
+                    continuar = False 
