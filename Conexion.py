@@ -8,7 +8,7 @@ class baseDeDatos ():
         conn.commit()
         conn.close()
 
-# .........................................................
+## va de nuevo!# .........................................................
 # ACA CREAMOS LA BASE DE DATOS, LAS TABLAS Y LOS DATOS EN LAS TABLAS MEDIANTE CÓDIGO.
 # UNA VEZ CREADOS, SE COMENTA PORQUE SINO CADA VEZ QUE EJECUTEMOS VA A DAR ERROR PORQUE YA ESTÁN HECHAS.
 
